@@ -25,7 +25,7 @@
 
 		h1 {
 			font-size: 3.25em;
-			font-weight: _font(weight-bold);
+			font-weight: 300;//_font(weight-bold);
 			margin-bottom: _size(element-margin) * 0.25;
 		}
 
@@ -42,7 +42,7 @@
 			@include vendor('transition', ('opacity 0.5s ease', 'transform 1s ease'));
 			@include vendor('transform', 'translateX(0)');
 			opacity: 1;
-			text-align: right;
+			text-align: center; // right
 			margin: (_size(element-margin) * -1.75) (_size(element-margin) * 2) 0 0;
 
 			> :last-child {
